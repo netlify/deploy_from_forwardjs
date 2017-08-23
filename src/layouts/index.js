@@ -12,7 +12,7 @@ const Header = () =>
   <HeaderStyle>
     <HeaderPadding>
       <Header1>
-        {window && window.location.pathname === '/' ?
+        {typeof window !== 'undefined' && window.location.pathname === '/' ?
           <HeaderTitle>
             Congratulations on deploying a <a href="https://www.gatsbyjs.org/">Gatsby</a> site on <a href="https://netlify.com">Netlify</a>.
           </HeaderTitle>
