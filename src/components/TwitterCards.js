@@ -5,8 +5,8 @@ import data from '../../data/tweets.json'
 
 const Card = ({content}) =>
   <CardStyle>
-    {`${content} ${data.hashtag}`}
-    <a target='_blank' href={`https://twitter.com/intent/tweet?text=${content}%20`}><CardButton>Tweet</CardButton></a>
+    <p>{`${content}`} <strong>{`${data.hashtag}`}</strong></p>
+    <a target='_blank' href={`https://twitter.com/intent/tweet?text=${content}%20${window && window.location.href}%20%23getTheSwitch`}><CardButton>Tweet</CardButton></a>
   </CardStyle>
 ;
 

@@ -12,9 +12,13 @@ const Header = () =>
   <HeaderStyle>
     <HeaderPadding>
       <Header1>
-        <HeaderTitle>
-          Congratulations on deploying a <a href="https://www.gatsbyjs.org/">Gatsby</a> site on <a href="https://netlify.com">Netlify</a>.
-        </HeaderTitle>
+        {window && window.location.pathname === '/' ?
+          <HeaderTitle>
+            Congratulations on deploying a <a href="https://www.gatsbyjs.org/">Gatsby</a> site on <a href="https://netlify.com">Netlify</a>.
+          </HeaderTitle>
+        :<HeaderTitle>
+          Deploy <a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify/react-rally-gatsby-app">Gatsby</a> to <a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify/react-rally-gatsby-app">Netlify</a> to win a Switch
+        </HeaderTitle>}
       </Header1>
     </HeaderPadding>
   </HeaderStyle>

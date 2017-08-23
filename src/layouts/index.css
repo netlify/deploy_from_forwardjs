@@ -52,7 +52,8 @@ abbr[title] {
 }
 b,
 strong {
-  font-weight: inherit;
+  color: #00C7B7;
+  font-weight: 400;
   font-weight: bolder;
 }
 dfn {
@@ -67,7 +68,10 @@ mark {
   color: #000;
 }
 small {
+  color: #8B8B8B;
+  font-weight: 500;
   font-size: 80%;
+  letter-spacing: 1px;
 }
 sub,
 sup {
@@ -382,7 +386,7 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1;
 }
 figure {
   margin-left: 0;
