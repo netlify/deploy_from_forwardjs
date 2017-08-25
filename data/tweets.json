@@ -2,11 +2,11 @@
   "tweets": [
     {
       "id": "1",
-      "content": "Just deployed my first Gatsby site @ReactRally via @netlify"
+      "content": "Deploying like a boss! My first Gatsby site @ReactRally via @netlify"
     },
     {
       "id": "2",
-      "content": "Couldn't be easier deploying, deployed a Gatsby site in less than a few minutes via @netlify"
+      "content": "Deploying without handlebars, got a @gatsbyjs site in less than a few minutes via @netlify"
     }
   ],
   "hashtag": "#getTheSwitch"
