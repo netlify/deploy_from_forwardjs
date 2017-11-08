@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 const SecondPage = () =>
   <div>
     <p>To get started click the button below.</p>
-    <a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify/react-rally-gatsby-app">
+    <a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify/nodevember-gatsby-app">
       <img src="https://www.netlify.com/img/deploy/button.svg" title="Deploy to Netlify" />
     </a>
     <p>
@@ -21,7 +21,7 @@ const SecondPage = () =>
       a static site generator build with React and GraphQL. 
       <br />
       <br />
-      If you want to view the source code, you can do so at <a href="https://github.com/netlify/react-rally-gatsby-app">netlify/react-rally-gatsby-app
+      If you want to view the source code, you can do so at <a href="https://github.com/netlify/nodevember-gatsby-app">netlify/nodevember-gatsby-app
       </a><br />
     </small>
   </div>

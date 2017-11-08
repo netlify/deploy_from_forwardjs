@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 
 const IndexPage = () =>
   <div>
-    <p>By deploying this site on <strong>Netlify</strong>, you are 1 step away from a chance to win a <strong>Nintendo Switch</strong> at <strong>React Rally</strong>. Select and tweet from the list below confirm your chance to win. You may edit the tweet, but ensure that you include the <strong>#getTheSwitch</strong> hashtag and a link you site.</p>
+    <p>By deploying this site on <strong>Netlify</strong>, you are 1 step away from a chance to win a <strong>Nintendo Switch</strong> at <strong>Nodevember</strong>. Select and tweet from the list below confirm your chance to win. You may edit the tweet, but ensure that you include the <strong>#getTheSwitch</strong> hashtag and a link you site.</p>
     <TwitterCards />
     <hr />
     <small>
@@ -17,7 +17,7 @@ const IndexPage = () =>
       a static site generator build with React and GraphQL.
       <br />
       <br />
-      If you are at React Rally and would like to enter to win, proceed to <Link to="/step-1">step 1</Link>
+      If you are at Nodevember and would like to enter to win, proceed to <Link to="/step-1">step 1</Link>
     </small>
   </div>
 
