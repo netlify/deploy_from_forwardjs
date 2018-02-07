@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 const SecondPage = () =>
   <div>
     <p>To get started click the button below.</p>
-    <a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify/">
+    <a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify/deploy-from-table-app">
       <img src="https://www.netlify.com/img/deploy/button.svg" title="Deploy to Netlify" />
     </a>
     <p>
