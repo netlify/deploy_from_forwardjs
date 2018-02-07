@@ -17,7 +17,7 @@ const Header = () =>
             Congratulations on deploying a <a href="https://www.gatsbyjs.org/">Gatsby</a> site on <a href="https://netlify.com">Netlify</a>.
           </HeaderTitle>
         :<HeaderTitle>
-          Deploy <a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify/nodevember-gatsby-app">Gatsby</a> to <a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify/react-rally-gatsby-app">Netlify</a> to win a Switch
+          Deploy <a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify/deploy-from-table-app">Gatsby</a> to <a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify/deploy-from-table-app">Netlify</a> to win a Switch
         </HeaderTitle>}
       </Header1>
     </HeaderPadding>
