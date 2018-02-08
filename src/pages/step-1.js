@@ -21,7 +21,7 @@ const SecondPage = () =>
       a static site generator build with React and GraphQL. 
       <br />
       <br />
-      If you want to view the source code, you can do so at <a href="https://github.com/netlify/deploy-from-table-app">netlify/nodevember-gatsby-app
+      If you want to view the source code, you can do so at <a href="https://github.com/netlify/deploy-from-table-app">netlify/deploy-from-table-app
       </a><br />
     </small>
   </div>

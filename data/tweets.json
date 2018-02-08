@@ -2,13 +2,13 @@
   "tweets": [
     {
       "id": "1",
-      "content": "Deploying like a boss! My first Gatsby site @Nodevember via @netlify"
+      "content": "Deploying like a boss! My first Gatsby site @event via @netlify"
     },
     {
       "id": "2",
       "content": "Deploying without handlebars, got a @gatsbyjs site in less than a few minutes via @netlify"
     }
   ],
-  "hashtag": "#getTheSwitch"
+  "hashtag": "#deployedFromTable"
 }
 

@@ -1,10 +1,12 @@
 import React from 'react'
 import TwitterCards from '../components/TwitterCards';
 import Link from 'gatsby-link'
+import eventData from '../../data/eventData.json'
+import tweetData from '../../data/tweets.json'
 
 const IndexPage = () =>
   <div>
-    <p>By deploying this site on <strong>Netlify</strong>, you are 1 step away from a chance to win a <strong>Nintendo Switch</strong> at <strong>Nodevember</strong>. Select and tweet from the list below confirm your chance to win. You may edit the tweet, but ensure that you include the <strong>#getTheSwitch</strong> hashtag and a link you site.</p>
+    {eventData.giveaway && <p>By deploying this site on <strong>Netlify</strong>, you are 1 step away from a chance to win a <strong>{eventData.prize}</strong> at <strong>{eventData.name}</strong>. Select and tweet from the list below confirm your chance to win. You may edit the tweet, but ensure that you include the <strong>{tweetData.hashtag}</strong> hashtag and a link you site.</p>}
     <TwitterCards />
     <hr />
     <small>
@@ -17,7 +19,7 @@ const IndexPage = () =>
       a static site generator build with React and GraphQL.
       <br />
       <br />
-      If you are at Nodevember and would like to enter to win, proceed to <Link to="/step-1">step 1</Link>
+      {eventData.giveaway && <p>If you are at {eventData.name} and would like to enter to win, proceed to <Link to="/step-1">step 1</Link></p>}
     </small>
   </div>
 
